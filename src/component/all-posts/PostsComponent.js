@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import PostComponent from "../post/PostComponent";
+import {PostService} from "../../Services/postService";
 
 class PostsComponent extends Component {
     state={posts:[], chosen:null}
+    PostService= new PostService()
     Select=(id)=>{
-        let {posts}=this.state
-            let found=posts.find(value=>value.id===id)
-            this.setState({chosen:found})}
+        this.PostService.getPostById(id).then(value => this.setState({chosen:value}))}
     render() {
         let {posts, chosen}=this.state
         return (
@@ -16,9 +16,8 @@ class PostsComponent extends Component {
             </div>
         );
     }
-    componentDidMount() {fetch("https://jsonplaceholder.typicode.com/posts")
-        .then(value=>value.json())
-        .then(json=> this.setState({posts: json}))
+    componentDidMount() {
+        this.PostService.getAllPost().then(value => this.setState({posts: value}))
     }
 }
 
