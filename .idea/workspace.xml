@@ -1,25 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5d8bbf-751b-4f41-899e-1b9cd8361f45" name="Default Changelist" comment="" />
+    <list default="true" id="9b5d8bbf-751b-4f41-899e-1b9cd8361f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Services/commentservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/all-comments/CommentsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/comments/CommentComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/comments/commentsStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/postStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/user/UserComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UsersComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/all-users/UsersComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/all-posts/PostsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/all-posts/PostsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/post/PostComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/post/PostComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/userStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/user/userStyle.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="lesson2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson3Services" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lLLQE2wsrKkmV07HHtVRg3aQvg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OWU.com.ua\reactproject\project1\src\component\user" />
+      <recent name="E:\OWU.com.ua\reactproject\project1\src\component\all-users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,8 +101,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607371407656</updated>
-      <workItem from="1607371409084" duration="325000" />
+      <workItem from="1607371409084" duration="3372000" />
+      <workItem from="1607417751922" duration="62000" />
+      <workItem from="1607516312171" duration="3914000" />
+      <workItem from="1607596714182" duration="626000" />
+      <workItem from="1607942089244" duration="9576000" />
+      <workItem from="1607977178865" duration="5260000" />
     </task>
+    <task id="LOCAL-00001" summary="commit1">
+      <created>1607373614993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607373614993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit&#10;Post+Posts+App">
+      <created>1607519009029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607519009029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit&#10;Post+Posts+App services">
+      <created>1607943580176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607943580176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit1" />
+    <MESSAGE value="commit&#10;Post+Posts+App" />
+    <MESSAGE value="commit&#10;Post+Posts+App services" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit&#10;Post+Posts+App services" />
   </component>
 </project>

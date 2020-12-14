@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PostComponent from "../post/PostComponent";
 import {PostService} from "../../Services/postService";
+import "../post/postStyle.css"
 
 class PostsComponent extends Component {
     state={posts:[], chosen:null}
@@ -10,9 +11,9 @@ class PostsComponent extends Component {
     render() {
         let {posts, chosen}=this.state
         return (
-            <div>
+            <div className={"post"}>
                 {posts.map(post=><PostComponent item={post} key={post.id} Select={this.Select}/>)}
-                {chosen && <PostComponent item={chosen} isVisible={true}/>}
+                <div className={"chosen"}>{chosen && <PostComponent item={chosen} isVisible={true}/>}</div>
             </div>
         );
     }

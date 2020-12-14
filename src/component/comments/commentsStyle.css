@@ -1,0 +1,13 @@
+.klas {
+    color: #1670f0;
+    font-family: sans-serif;
+}
+
+.chosenComment {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    color: #1670f0;
+    text-transform: uppercase;
+}
