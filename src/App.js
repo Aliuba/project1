@@ -1,48 +1,35 @@
 import React, {Component} from 'react';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link
-} from 'react-router-dom';
+import {Switch, Route, NavLink} from 'react-router-dom';
 import PostsComponent from "./component/all-posts/PostsComponent";
 import UsersComponent from "./component/all-users/UsersComponent";
 import CommentsComponent from "./component/all-comments/CommentsComponent";
+import './App.css'
 
 class App extends Component {
     render() {
         return (
-            <Router>
-				<div>
-					<div>
-						<Link to={'/users'}>users</Link>
-					</div>
-					<div>
-						<Link to={'/posts'}>posts</Link>
-					</div>
-					<div>
-						<Link to={'/comments'}>comments</Link>
-					</div>
 
-					<div className={'app-route'}>
+            <div>
+                <ul>
+                    <li>
+                        <NavLink to={'/users'}>users</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/posts'}>posts</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/comments'}>comments</NavLink>
+                    </li>
+                </ul>
 
-						<Switch>
-							<Route path={'/posts'} render={(props) => {
-								console.log(props);
-								return <PostsComponent/>;
-							}}/>
-
-							<Route path={'/users'} render={(props)=>{console.log(props);return <UsersComponent/>}}
-
-							/>
-							<Route path={'/comments'} render={(props)=>{console.log(props);
-							return <CommentsComponent/>}}/>
-
-						</Switch>
-
-					</div>
-				</div>
-			</Router>
+                <div className={'app-route'}>
+                    <Switch>
+                        <Route path={'/users'} component={UsersComponent}/>
+                        <Route path={'/posts'} component={PostsComponent}/>
+                        <Route path={'/comments'} component={CommentsComponent}/>
+                    </Switch>
+                </div>
+            </div>
         );
     }
 }
